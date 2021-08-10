@@ -1,6 +1,6 @@
-#MIT License
+#GNU General Public License v3.0
 
-#Copyright (c) 2021 SUBIN
+#Copyright (c) 2021 Shubham-king
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -171,12 +171,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-                InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
+                InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/shubham_music_team'),
+                InlineKeyboardButton('🤖 Other Bots', url='https://t.me/RobotTech_Official'),
             ],
             [
-                InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-                InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+                InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/robottech_memeber'),
+                InlineKeyboardButton('🧩 Source', url='https://github.com/shubham-king/private_music'),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
