@@ -3,3 +3,6 @@
 
 # we will write more about it 
 # Deploy now
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shubham-king/private_music)
+
